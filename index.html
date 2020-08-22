@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>COVID 19 Assesment</title>
+</head>
+<body>
+    <div class="header">
+        <h1>COVID 19 Self Assesment System</h1>
+        <h3> Wizard based system to get questionnaires about symptoms and syndromes from user and give a prediction </h3>
+    </div>
+   <div class="info"></div>
+       <p>Step 1</p>
+       <p>(Please fill in the form first)</p>
+      <form>
+           <label for="age">Age :</label>
+           <input type="number" id="age" name="age"><br><br>
+           <label for="sex">Sex :</label>
+           <input type="text" id="sex" name="sex"><br><br>
+           <label for="temp">Temperature :</label>
+           <input type="text" name="temp" id="temp" placeholder="Type in Fahrenheit"><br><br> 
+        </form>
+    </div>
+
+
+       <div class="step1">
+    <p>Step 2</p>
+    <p>(Please check all possible fields you are suffering from)</p>
+       <form  name="serious" >
+           <input type="checkbox" name="step1" id="s1" value="Breathing Problem">
+           <label for="step1">Breathing Problem</label><br>
+           <input type="checkbox" name="step1" id="s2" value="Dry Cough">
+           <label for="step1">Dry Cough</label><br>
+           <input type="checkbox" name="step1" id="s3" value="Sore Throat">
+           <label for="step1">Sore Throat</label><br>
+           <input type="checkbox" name="step1" id="s4" value="Weakness">
+           <label for="step1">Weakness</label><br>
+           <input type="checkbox" name="step1" id="s5" value="Runny Nose">
+           <label for="step1">Runny Nose</label><br><br>
+       </form>
+
+   </div>
+  
+
+   <div class="step1">
+    <p>Step 3</p>
+    <p>(Give additional informations || Kindly check all that applies)</p>
+       <form  name="additional">
+           <input type="checkbox" name="ap" id="ap" value="Abdominal Pain">
+           <label for="ap">Abdominal Pain</label><br>
+           <input type="checkbox" name="v" id="v" value="Vomitting">
+           <label for="v">Vomitting</label><br>
+           <input type="checkbox" name="d" id="d" value="Diarrhoea">
+           <label for="d">Diarrhoea</label><br>
+           <input type="checkbox" name="cp" id="cp" value="Chest Pain or Pressure">
+           <label for="cp">Chest Pain or Pressure</label><br>
+           <input type="checkbox" name="mp" id="mp" value="Muscle Pain">
+           <label for="mp">Muscle Pain</label><br>
+           <input type="checkbox" name="lt" id="lt" value="Loss of Taste or Smell">
+           <label for="lt">Loss of Taste or Smell</label><br>
+           <input type="checkbox" name="rs" id="rs" value="Rash On Skin or Discoloration of Fingers or Toes">
+           <label for="rs">Rash On Skin or Discoloration of Fingers or Toes</label><br>
+           <input type="checkbox" name="ls" id="ls" value="Loss of Speech or Movement">
+           <label for="ls">Loss of Speech or Movement</label><br><br>
+       </form>
+
+   </div>
+
+   <input type="button" id="button1"  value="Submit" onclick="formcontroller()" ><br><br>
+   <input type="button" id="button2"  value="Refresh" onclick="location.href='index.html';">
+
+   <h2 class="pending" id="para"> <h2><br><br>
+   
+       
+
+
+   <footer>
+       <h1 class="disc">!! Disclaimer !!</h1>
+       <p>“This COVID-19 Self Assessment System is only for software 
+        development purpose and may not yield actual result. </p>
+        <p>Any information given by users of this system will not be disclosed
+            or store to anywhere.”</p> 
+   </footer>
+ 
+
+   <script src="app.js"></script>
+
+</body>
+</html>

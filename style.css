@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+.header{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    background: #1ABC9C;
+    color: cornsilk;
+    
+}
+
+.info{
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+
+.step1{
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.disc{
+    color: rgb(245, 52, 18);
+}
+
+footer{
+    position: relative;
+    padding: 10px 20px;
+    color: #1ABC9C;
+}
+
+.pending{
+    font-size: 2rem;
+    color: indianred;
+}
+
+#button1{
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    background: tomato;
+    font-size: large;
+}
+
+#button2{
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    background: darkseagreen;
+    font-size: large;
+
+}
